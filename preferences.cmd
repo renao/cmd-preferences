@@ -24,6 +24,7 @@ doskey gwc = git whatchanged -p --abbrev-commit --pretty=medium
 %= executables =%
 doskey adb = %USERPROFILE%\AppData\Local\android\sdk\platform-tools\adb.exe $*
 doskey subl = D:\sublime-text\sublime_text.exe $*
+doskey inkscape = "C:\Program Files\Inkscape\Inkscape.exe $*"
 
 %= folders =%
 doskey dev = cd %USERPROFILE%\devel\$*
