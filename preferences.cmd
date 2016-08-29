@@ -20,11 +20,13 @@ doskey gst = git status -s
 doskey gfa = git fetch --all
 doskey gwc = git whatchanged -p --abbrev-commit --pretty=medium
 
-
 %= executables =%
 doskey adb = %USERPROFILE%\AppData\Local\android\sdk\platform-tools\adb.exe $*
 doskey subl = D:\sublime-text\sublime_text.exe $*
 doskey inkscape = "C:\Program Files\Inkscape\Inkscape.exe $*"
+doskey designer = "C:\Program Files\Serif\Affinity Designer Public Beta\Designer.exe $*"
+doskey php = "C:\xampp\php\php.exe $*"
+doskey mysql = "C:\xampp\mysql\bin\mysql.exe $*"
 
 %= folders =%
 doskey dev = cd %USERPROFILE%\devel\$*
