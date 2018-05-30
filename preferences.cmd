@@ -24,7 +24,6 @@ doskey gwc = git whatchanged -p --abbrev-commit --pretty=medium
 doskey adb = %ANDROID_HOME%\platform-tools\adb.exe $*
 doskey designer = "C:\Program Files\Affinity\Affinity Designer\Designer.exe $*"
 doskey photo = "C:\Program Files\Affinity\Affinity Photo\Photo.exe $*"
-doskey tower = D:\Tower\Tower.exe $*
 
 %= folders =%
 doskey dev = cd %USERPROFILE%\devel\$*
